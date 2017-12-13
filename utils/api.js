@@ -8,7 +8,7 @@ export const submitEntry = ({entry, key}) => (
 )
 
 export const removeEntry = (key) => (
-    return AsyncStorage.getItem(CALENDAR_STORAGE_KEY)
+    AsyncStorage.getItem(CALENDAR_STORAGE_KEY)
         .then((result) => {
                 const data = JSON.parse(result)
                 data[key] = undefined
