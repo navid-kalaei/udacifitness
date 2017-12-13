@@ -1,8 +1,18 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import {View, Text, Slider} from 'react-native'
 
-export default () => (
+export default ({max, unit, step, value, onChange}) => (
     <View>
-        <Text>UdaciSlider</Text>
+        <Slider
+            value={value}
+            step={step}
+            maximumValue={max}
+            minimumValue={0}
+            onValueChange={onChange}
+        />
+        <View>
+            <Text>{value}</Text>
+            <Text>{unit}</Text>
+        </View>
     </View>
 )
