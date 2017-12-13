@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/TextButton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/utils/api.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/components/AddEntry.js" afterPath="$PROJECT_DIR$/components/AddEntry.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,13 +29,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +133,7 @@
         <option value="$PROJECT_DIR$/components/UdaciStepper.js" />
         <option value="$PROJECT_DIR$/components/TextButton.js" />
         <option value="$PROJECT_DIR$/components/AddEntry.js" />
+        <option value="$PROJECT_DIR$/utils/api.js" />
       </list>
     </option>
   </component>
@@ -176,6 +188,11 @@
               <item name="triathlon" type="b2602c69:ProjectViewProjectNode" />
               <item name="triathlon" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triathlon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="triathlon" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +316,7 @@
       <workItem from="1513069699875" duration="6766000" />
       <workItem from="1513149171495" duration="998000" />
       <workItem from="1513150726891" duration="136000" />
-      <workItem from="1513150899145" duration="3956000" />
+      <workItem from="1513150899145" duration="4453000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -322,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513152811080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add logged in page">
+      <created>1513156458770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1513156458770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11856000" />
+    <option name="totallyTimeSpent" value="12353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -361,7 +385,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add slider" />
     <MESSAGE value="feat: add stepper" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add stepper" />
+    <MESSAGE value="feat: add logged in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add logged in page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -653,6 +678,16 @@
           <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="78" lean-forward="false" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
