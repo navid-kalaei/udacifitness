@@ -1,7 +1,7 @@
 import React from 'react'
 import {View, StyleSheet} from 'react-native'
 import {FontAwesome, MaterialIcons, MaterialCommunityIcons} from '@expo/vector-icons'
-import {white, red, lightPurp, orange, blue, pink, black} from './colors'
+import {white, red, lightPurp, orange, blue, pink, black, purple} from './colors'
 
 
 

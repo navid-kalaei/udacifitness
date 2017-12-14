@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/colors.js" afterPath="$PROJECT_DIR$/utils/colors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/AddEntry.js" afterPath="$PROJECT_DIR$/components/AddEntry.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/helpers.js" afterPath="$PROJECT_DIR$/utils/helpers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -63,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/helpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+            <state relative-caret-position="-2323">
+              <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -97,6 +96,8 @@
       <find>red</find>
       <find>red}]</find>
       <find>black</find>
+      <find>styles</find>
+      <find>contain</find>
     </findStrings>
     <replaceStrings>
       <replace>black</replace>
@@ -117,10 +118,10 @@
         <option value="$PROJECT_DIR$/utils/api.js" />
         <option value="$PROJECT_DIR$/actions/index.js" />
         <option value="$PROJECT_DIR$/reducers/index.js" />
-        <option value="$PROJECT_DIR$/components/AddEntry.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/utils/colors.js" />
         <option value="$PROJECT_DIR$/utils/helpers.js" />
+        <option value="$PROJECT_DIR$/components/AddEntry.js" />
       </list>
     </option>
   </component>
@@ -326,7 +327,7 @@
       <workItem from="1513177584814" duration="593000" />
       <workItem from="1513239191035" duration="353000" />
       <workItem from="1513241687015" duration="718000" />
-      <workItem from="1513248794573" duration="3871000" />
+      <workItem from="1513248794573" duration="5611000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -377,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513252602465</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: change color of entries">
+      <created>1513254317584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513254317584</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21050000" />
+    <option name="totallyTimeSpent" value="22790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="749" extended-state="6" />
@@ -427,7 +435,8 @@
     <MESSAGE value="feat: add submit and remove entry api" />
     <MESSAGE value="feat: add actions" />
     <MESSAGE value="feat: connect redux to AddEntry" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: connect redux to AddEntry" />
+    <MESSAGE value="refactor: change color of entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change color of entries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -772,16 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -802,9 +801,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        <state relative-caret-position="-2323">
+          <caret line="3" column="64" lean-forward="false" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
