@@ -17,3 +17,4 @@ const entries = (state={}, action) => {
     }
 }
 
+export default entries;
