@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/UdaciStepper.js" afterPath="$PROJECT_DIR$/components/UdaciStepper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/DateHeader.js" afterPath="$PROJECT_DIR$/components/DateHeader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UdaciStepper.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/UdaciStepper.js">
+      <file leaf-file-name="DateHeader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/DateHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="108">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -92,6 +92,7 @@
         <option value="$PROJECT_DIR$/utils/helpers.js" />
         <option value="$PROJECT_DIR$/components/AddEntry.js" />
         <option value="$PROJECT_DIR$/components/UdaciStepper.js" />
+        <option value="$PROJECT_DIR$/components/DateHeader.js" />
       </list>
     </option>
   </component>
@@ -297,7 +298,7 @@
       <workItem from="1513177584814" duration="593000" />
       <workItem from="1513239191035" duration="353000" />
       <workItem from="1513241687015" duration="718000" />
-      <workItem from="1513248794573" duration="8033000" />
+      <workItem from="1513248794573" duration="8146000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -362,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513257046460</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: add style to UdaciStepper">
+      <created>1513260124092</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513260124092</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25212000" />
+    <option name="totallyTimeSpent" value="25325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="749" extended-state="6" />
@@ -414,7 +422,8 @@
     <MESSAGE value="feat: connect redux to AddEntry" />
     <MESSAGE value="refactor: change color of entries" />
     <MESSAGE value="feat: add style to AddEntry" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to AddEntry" />
+    <MESSAGE value="feat: add style to UdaciStepper" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to UdaciStepper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/DateHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/UdaciSlider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -746,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -776,6 +768,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/DateHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
