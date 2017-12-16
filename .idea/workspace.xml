@@ -4,8 +4,6 @@
     <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="feat: add AppLoading to History">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -278,7 +276,7 @@
       <workItem from="1513434329648" duration="600000" />
       <workItem from="1513435446598" duration="139000" />
       <workItem from="1513435613886" duration="3000" />
-      <workItem from="1513435652915" duration="8868000" />
+      <workItem from="1513435652915" duration="8894000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -441,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513444869706</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="chore: install react-navigation">
+      <created>1513445837482</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1513445837482</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38244000" />
+    <option name="totallyTimeSpent" value="38270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +521,8 @@
     <MESSAGE value="feat: add MetaCard to History" />
     <MESSAGE value="fix: typo" />
     <MESSAGE value="feat: add AppLoading to History" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add AppLoading to History" />
+    <MESSAGE value="chore: install react-navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: install react-navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

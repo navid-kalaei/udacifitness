@@ -8,10 +8,6 @@ import reducer from './reducers'
 
 export default class App extends React.Component {
 
-    state = {
-        value: 0
-    }
-
     render() {
         return (
             <Provider store={createStore(reducer)}>
