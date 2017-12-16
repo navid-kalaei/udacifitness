@@ -7,7 +7,7 @@ import {fetchCalendarResults} from '../utils/api'
 import UdaciFitnessCalendar from 'udacifitness-calendar'
 import {white} from '../utils/colors'
 import DateHeader from './DateHeader'
-import MetricCart from './MetricCard'
+import MetricCard from './MetricCard'
 
 class History extends Component {
 

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="feat: add style to history">
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/MetricCard.js" />
+    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/components/History.js" afterPath="$PROJECT_DIR$/components/History.js" />
     </list>
@@ -21,8 +20,8 @@
       <file leaf-file-name="History.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/History.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="162">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -289,7 +288,7 @@
       <workItem from="1513434329648" duration="600000" />
       <workItem from="1513435446598" duration="139000" />
       <workItem from="1513435613886" duration="3000" />
-      <workItem from="1513435652915" duration="5726000" />
+      <workItem from="1513435652915" duration="5797000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -431,11 +430,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513439977905</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: add MetaCard to History">
+      <created>1513441548068</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1513441548068</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35102000" />
+    <option name="totallyTimeSpent" value="35173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +509,8 @@
     <MESSAGE value="chore: install udacifitness-calendar" />
     <MESSAGE value="feat: add style to History" />
     <MESSAGE value="feat: add style to history" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to history" />
+    <MESSAGE value="feat: add MetaCard to History" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add MetaCard to History" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -898,8 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="162">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
