@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
+    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="feat: add style to history">
+      <change beforePath="" afterPath="$PROJECT_DIR$/components/MetricCard.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/components/History.js" afterPath="$PROJECT_DIR$/components/History.js" />
     </list>
@@ -20,10 +21,22 @@
       <file leaf-file-name="History.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/History.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            <state relative-caret-position="193">
+              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetricCard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/MetricCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,6 +60,7 @@
       <find>contain</find>
       <find>touch</find>
       <find>map</find>
+      <find>Toucha</find>
     </findStrings>
     <replaceStrings>
       <replace>black</replace>
@@ -73,6 +87,7 @@
         <option value="$PROJECT_DIR$/utils/api.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/components/MetricCard.js" />
         <option value="$PROJECT_DIR$/components/History.js" />
       </list>
     </option>
@@ -122,6 +137,11 @@
             <path>
               <item name="triathlon" type="b2602c69:ProjectViewProjectNode" />
               <item name="triathlon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="triathlon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="triathlon" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +289,7 @@
       <workItem from="1513434329648" duration="600000" />
       <workItem from="1513435446598" duration="139000" />
       <workItem from="1513435613886" duration="3000" />
-      <workItem from="1513435652915" duration="4271000" />
+      <workItem from="1513435652915" duration="5726000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -404,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513439427365</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: add style to history">
+      <created>1513439977905</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1513439977905</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33647000" />
+    <option name="totallyTimeSpent" value="35102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +502,8 @@
     <MESSAGE value="feat: add History to DB" />
     <MESSAGE value="chore: install udacifitness-calendar" />
     <MESSAGE value="feat: add style to History" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to History" />
+    <MESSAGE value="feat: add style to history" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to history" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,14 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -866,10 +886,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/MetricCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        <state relative-caret-position="193">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
