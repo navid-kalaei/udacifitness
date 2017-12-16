@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="feat: add style to TextButton">
+    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,13 +27,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="72">
+              <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,33 +42,9 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddEntry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/AddEntry.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="108" column="85" lean-forward="false" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/TextButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +80,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/components/DateHandler.js" />
-        <option value="$PROJECT_DIR$/utils/api.js" />
         <option value="$PROJECT_DIR$/actions/index.js" />
         <option value="$PROJECT_DIR$/reducers/index.js" />
         <option value="$PROJECT_DIR$/App.js" />
@@ -115,6 +90,7 @@
         <option value="$PROJECT_DIR$/components/DateHeader.js" />
         <option value="$PROJECT_DIR$/components/UdaciSlider.js" />
         <option value="$PROJECT_DIR$/components/TextButton.js" />
+        <option value="$PROJECT_DIR$/utils/api.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -325,7 +301,7 @@
       <workItem from="1513434329648" duration="600000" />
       <workItem from="1513435446598" duration="139000" />
       <workItem from="1513435613886" duration="3000" />
-      <workItem from="1513435652915" duration="468000" />
+      <workItem from="1513435652915" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -418,11 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1513260859216</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="chore: add intelliJ directory to gitignore">
+      <created>1513436158315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1513436158315</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add fetchCalendar api">
+      <created>1513436344670</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1513436344670</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29844000" />
+    <option name="totallyTimeSpent" value="30084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1370" height="749" extended-state="6" />
@@ -474,7 +464,9 @@
     <MESSAGE value="feat: add style to DateHeader" />
     <MESSAGE value="feat: add style to UdaciSlider" />
     <MESSAGE value="feat: add style to TextButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add style to TextButton" />
+    <MESSAGE value="chore: add intelliJ directory to gitignore" />
+    <MESSAGE value="feat: add fetchCalendar api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add fetchCalendar api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -804,13 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/colors.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -846,28 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/TextButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -884,10 +851,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="360">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>
       </provider>
