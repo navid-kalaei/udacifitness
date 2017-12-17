@@ -16,22 +16,19 @@ class History extends Component {
         ready: false
     }
 
-    componentDidMount() {
-        const {dispatch} = this.props
+    componentDidMount () {
+        const { dispatch } = this.props
 
         fetchCalendarResults()
             .then((entries) => dispatch(receiveEntries(entries)))
-            .then(({entries}) => {
+            .then(({ entries }) => {
                 if (!entries[timeToString()]) {
                     dispatch(addEntry({
                         [timeToString()]: getDailyReminderValue()
                     }))
                 }
             })
-            .then(() => {
-                    this.setState(() => ({ready: true}))
-                }
-            )
+            .then(() => this.setState(() => ({ready: true})))
     }
 
     renderItem = ({today, ...metrics}, formattedDate, key) => (
@@ -71,11 +68,17 @@ class History extends Component {
 
         const {ready} = this.state
 
-        if(ready === false){
-            return(
+        console.log('ready before app loading: ', ready)
+
+        if (ready === false) {
+            console.log('ready in app loading: ', this.state)
+            return (
                 <AppLoading/>
             )
         }
+
+
+        console.log('ready after app loading: ', ready)
 
         return (
             <UdaciFitnessCalendar

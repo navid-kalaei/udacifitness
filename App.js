@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, Slider, Platform} from 'react-native'
+import {View, Text, Platform, StatusBar} from 'react-native'
 import AddEntry from './components/AddEntry'
 import History from './components/History'
 import {createStore} from 'redux'
@@ -7,7 +7,7 @@ import {Provider} from 'react-redux'
 import reducer from './reducers'
 import {TabNavigator} from 'react-navigation'
 import {purple, white} from './utils/colors'
-import {FontAwsome, Ionicons} from '@expo/vector-icons'
+import {FontAwesome, Ionicons} from '@expo/vector-icons'
 
 
 const Tabs = TabNavigator(
@@ -16,14 +16,14 @@ const Tabs = TabNavigator(
             screen: History,
             navigationOptions: {
                 tabBarLabel: 'History',
-                tabBarIcon: ({tintColor}) => (<Ionicons name='ios-bookmarks' size={30} color={tintColor}/>)
+                tabBarIcon: ({tintColor}) => <Ionicons name='ios-bookmarks' size={30} color={tintColor}/>
             }
         },
         AddEntry: {
             screen: AddEntry,
             navigationOptions: {
                 tabBarLabel: 'Add Entry',
-                tabBarIcon: ({tintColor}) => (<FontAwsome name='plus-square' size={30} color={tintColor}/>)
+                tabBarIcon: ({tintColor}) => <FontAwesome name='plus-square' size={30} color={tintColor}/>
             }
         }
     },
