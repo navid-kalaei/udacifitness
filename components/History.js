@@ -68,17 +68,11 @@ class History extends Component {
 
         const {ready} = this.state
 
-        console.log('ready before app loading: ', ready)
-
         if (ready === false) {
-            console.log('ready in app loading: ', this.state)
             return (
                 <AppLoading/>
             )
         }
-
-
-        console.log('ready after app loading: ', ready)
 
         return (
             <UdaciFitnessCalendar

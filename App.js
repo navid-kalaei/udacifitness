@@ -8,6 +8,13 @@ import reducer from './reducers'
 import {TabNavigator} from 'react-navigation'
 import {purple, white} from './utils/colors'
 import {FontAwesome, Ionicons} from '@expo/vector-icons'
+import {Constants} from 'expo'
+
+const UdacityStatusBar = ({backgroundColor, ...props}) => (
+    <View style={{backgroundColor, height: Constants.statusBarHeight}}>
+        <StatusBar translucent backgroundColor={backgroundColor} {...props}/>
+    </View>
+)
 
 
 const Tabs = TabNavigator(
@@ -55,7 +62,7 @@ export default class App extends React.Component {
         return (
             <Provider store={createStore(reducer)}>
                 <View style={{flex: 1}}>
-                    <View style={{height: 20}}></View>
+                    <UdacityStatusBar backgroundColor={purple} barStyle='light-content'/>
                     <Tabs/>
                 </View>
             </Provider>
