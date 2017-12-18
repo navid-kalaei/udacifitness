@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {View, Text, TouchableOpacity, Platform, StyleSheet} from 'react-native'
+import {NavigationActions} from 'react-navigation'
 import {getMetricMetaInfo, timeToString, getDailyReminderValue} from '../utils/helpers'
 import UdaciSlider from './UdaciSlider'
 import UdaciStepper from './UdaciStepper'
@@ -80,7 +81,7 @@ class AddEntry extends Component {
             sleep: 0
         }))
 
-        // Navigate to home
+        this.toHome()
 
         submitEntry({key, entry})
 
@@ -97,6 +98,12 @@ class AddEntry extends Component {
         //route to home
 
         removeEntry(key)
+    }
+
+    toHome = () => {
+        this.props.navigation.dispatch(NavigationActions.back({
+            key: 'AddEntry'
+        }))
     }
 
     render() {
