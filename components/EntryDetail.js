@@ -23,13 +23,23 @@ class EntryDetail extends Component {
         const {metrics} = this.props
 
         return(
-            <View>
+            <View style={styles.container}>
                 <MetricCard metrics={metrics}/>
                 <Text>Entry Detail - {this.props.navigation.state.params.entryId}</Text>
             </View>
         )
     }
 }
+
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: white,
+        padding: 15,
+
+    }
+})
 
 
 const mapStateToProps = (state, {navigation}) => {
