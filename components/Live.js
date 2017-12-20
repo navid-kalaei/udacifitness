@@ -34,7 +34,7 @@ export default class Live extends Component {
         if(status === 'undetermined') {
             return (
                 <View style={styles.center}>
-                    <Foundation name={alert} size={50}/>
+                    <Foundation name='alert' size={50}/>
                     <Text>
                         You need to enable location services for this app.
                     </Text>
