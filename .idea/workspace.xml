@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="fix: remove duplicated page from AddEntry">
+    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/components/Live.js" afterPath="$PROJECT_DIR$/components/Live.js" />
     </list>
@@ -32,8 +32,8 @@
       <file leaf-file-name="Live.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Live.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="117">
+              <caret line="31" column="111" lean-forward="false" selection-start-line="31" selection-start-column="111" selection-end-line="31" selection-end-column="111" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -127,6 +127,8 @@
       <find>Tex</find>
       <find>render</find>
       <find>name</find>
+      <find>deni</find>
+      <find>Fou</find>
     </findStrings>
     <replaceStrings>
       <replace>black</replace>
@@ -368,7 +370,7 @@
       <workItem from="1513580329955" duration="6248000" />
       <workItem from="1513688060934" duration="2019000" />
       <workItem from="1513753062945" duration="663000" />
-      <workItem from="1513754317070" duration="2021000" />
+      <workItem from="1513754317070" duration="2300000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -643,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513755687628</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix: name property of Foundation">
+      <created>1513756370094</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1513756370094</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57541000" />
+    <option name="totallyTimeSpent" value="57820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +705,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add fetchCalendar api" />
     <MESSAGE value="fix: fix intelliJ gitignore" />
     <MESSAGE value="feat: add History to DB" />
     <MESSAGE value="chore: install udacifitness-calendar" />
@@ -721,7 +729,8 @@
     <MESSAGE value="fix: ignore .idea" />
     <MESSAGE value="feat: add base of Live" />
     <MESSAGE value="feat: add Live undetermined" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Live undetermined" />
+    <MESSAGE value="fix: name property of Foundation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: name property of Foundation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1137,8 +1146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Live.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="117">
+          <caret line="31" column="111" lean-forward="false" selection-start-line="31" selection-start-column="111" selection-end-line="31" selection-end-column="111" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
