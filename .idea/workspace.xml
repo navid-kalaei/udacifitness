@@ -32,8 +32,8 @@
       <file leaf-file-name="Live.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Live.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="75" column="37" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -129,6 +129,7 @@
       <find>name</find>
       <find>deni</find>
       <find>Fou</find>
+      <find>und</find>
     </findStrings>
     <replaceStrings>
       <replace>black</replace>
@@ -370,7 +371,7 @@
       <workItem from="1513580329955" duration="6248000" />
       <workItem from="1513688060934" duration="2019000" />
       <workItem from="1513753062945" duration="663000" />
-      <workItem from="1513754317070" duration="3237000" />
+      <workItem from="1513754317070" duration="4708000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -659,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513756630719</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat: add granted to Live">
+      <created>1513757568401</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1513757568401</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58757000" />
+    <option name="totallyTimeSpent" value="60228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,7 +720,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add History to DB" />
     <MESSAGE value="chore: install udacifitness-calendar" />
     <MESSAGE value="feat: add style to History" />
     <MESSAGE value="feat: add style to history" />
@@ -737,7 +744,8 @@
     <MESSAGE value="feat: add Live undetermined" />
     <MESSAGE value="fix: name property of Foundation" />
     <MESSAGE value="feat: add denied to Live" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add denied to Live" />
+    <MESSAGE value="feat: add granted to Live" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add granted to Live" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Live.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="75" column="37" lean-forward="false" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
