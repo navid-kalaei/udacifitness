@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="">
+    <list default="true" id="78c14e35-659d-41ef-b344-e278ebe02b5b" name="Default" comment="feat: finish geolocation in Live">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/components/Live.js" afterPath="$PROJECT_DIR$/components/Live.js" />
     </list>
@@ -32,8 +32,8 @@
       <file leaf-file-name="Live.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/Live.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="118" column="62" lean-forward="false" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
+            <state relative-caret-position="492">
+              <caret line="107" column="82" lean-forward="false" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -131,6 +131,9 @@
       <find>Fou</find>
       <find>und</find>
       <find>North</find>
+      <find>undet</find>
+      <find>this.setState</find>
+      <find>console.warn</find>
     </findStrings>
     <replaceStrings>
       <replace>black</replace>
@@ -158,8 +161,8 @@
         <option value="$PROJECT_DIR$/components/History.js" />
         <option value="$PROJECT_DIR$/components/EntryDetail.js" />
         <option value="$PROJECT_DIR$/components/AddEntry.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/components/Live.js" />
       </list>
     </option>
@@ -372,7 +375,7 @@
       <workItem from="1513580329955" duration="6248000" />
       <workItem from="1513688060934" duration="2019000" />
       <workItem from="1513753062945" duration="663000" />
-      <workItem from="1513754317070" duration="6414000" />
+      <workItem from="1513754317070" duration="11117000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add slider">
       <created>1513151816763</created>
@@ -675,11 +678,32 @@
       <option name="project" value="LOCAL" />
       <updated>1513759563523</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="feat: finish geolocation in Live">
+      <created>1513761320623</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1513761320623</updated>
+    </task>
+    <task id="LOCAL-00045" summary="chore: update gitignore">
+      <created>1513769072269</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1513769072269</updated>
+    </task>
+    <task id="LOCAL-00046" summary="chore: update gitignore">
+      <created>1513769115739</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1513769115739</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61934000" />
+    <option name="totallyTimeSpent" value="66637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -728,8 +752,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: add style to History" />
-    <MESSAGE value="feat: add style to history" />
     <MESSAGE value="feat: add MetaCard to History" />
     <MESSAGE value="fix: typo" />
     <MESSAGE value="feat: add AppLoading to History" />
@@ -753,7 +775,9 @@
     <MESSAGE value="feat: add denied to Live" />
     <MESSAGE value="feat: add granted to Live" />
     <MESSAGE value="feat: add Live setLocation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Live setLocation" />
+    <MESSAGE value="feat: finish geolocation in Live" />
+    <MESSAGE value="chore: update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,16 +1185,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Live.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="118" column="62" lean-forward="false" selection-start-line="118" selection-start-column="62" selection-end-line="118" selection-end-column="62" />
+        <state relative-caret-position="492">
+          <caret line="107" column="82" lean-forward="false" selection-start-line="107" selection-start-column="82" selection-end-line="107" selection-end-column="82" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
